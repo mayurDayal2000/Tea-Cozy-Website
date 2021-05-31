@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    margin-top: 0;
+}
+
+header{
+    padding-left: 10px;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    height: 50px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav li{
+    padding: .5rem;
+}
+
+nav a{
+    color: seashell;
+}
+
+#top-section{
+    background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg") no-repeat;
+    background-position: center top;
+    max-width: 1200px;
+    height: 700px;
+    margin: auto;
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.mission-title{
+    background-color: black;
+    width: 1200px;
+}
+
+#mid-section{
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.img-box{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box img{
+    width: 300px;
+    height: 200px;
+    padding: 0 1rem;
+}
+
+.img-box h4{
+    margin-top: 10px;
+}
+
+#btm-section{
+    background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg") no-repeat;
+    background-position: center top;
+    max-width: 1200px;
+    height: 550px;
+    padding-bottom: 2rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location{
+    display: flex;
+    margin-top: 15px;
+}
+
+.location-box{
+    width: 300px;
+    padding: .5rem;
+    background-color: black;
+    margin-top: 40px;
+    margin-right: 40px;
+    opacity: 1;
+}
+
+.cover h2{
+    margin-bottom: 0;
+}
+
+.location-box h4{
+    font-weight: normal;
+}
+
+.address{
+    height: 200px;
+}
+
+footer h4{
+    margin: 0;
+    padding-bottom: 1rem;
+    margin-left: 20px;
+    text-align: left;
+}
